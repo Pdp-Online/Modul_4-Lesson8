@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#72BBDEFB"
+    tools:context=".activity.MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_task1"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:text="Task one"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:backgroundTint="#E46B56"
+        app:cornerRadius="15dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_task2"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:text="Task two"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:backgroundTint="#6B68CF"
+        app:cornerRadius="15dp"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_task3"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:text="Task three"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:backgroundTint="#97BF4C"
+        app:cornerRadius="15dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_task4"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:text="Task four"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:backgroundTint="#E4C156"
+        app:cornerRadius="15dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_task5"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:text="Task five"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:backgroundTint="#56E4CF"
+        app:cornerRadius="15dp"/>
+
+
+
+
+</LinearLayout>
